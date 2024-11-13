@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dark/Light</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="bg-banner">
+        <div class="light" id="first-phone">
+            <div class="screen" style="margin-right: 280px;">
+                <span><span id="mode-text1">LIGHT</span> MODE</span>
+                <div class="switch-bg">
+                    <div class="switch-circle" id="light_switch_circle" data-theme="light">
+                        <i class="fa-solid fa-lightbulb"></i>
+                    </div>
+                </div>
+                <span class="screen-bottom"></span>
+            </div>
+        </div>
+        <div class="dark" id="second-phone">
+            <div class="screen">
+                <span><span id="mode-text2">DARK</span> MODE</span>
+                <div class="switch-bg">
+                    <div class="switch-circle" id="dark_switch_circle" data-theme="dark">
+                        <i class="fa-solid fa-moon" id="sun-moon"></i>
+                    </div>
+                </div>
+                <span class="screen-bottom"></span>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="main.js"></script>
+</html>
